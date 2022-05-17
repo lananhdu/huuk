@@ -460,20 +460,30 @@ body {
 .earn-section {
   padding: 120px;
 }
-.earn-section .earn-act {
-  gap: 32px;
+.earn-section .row {
   display: flex;
+  gap: 32px;
+}
+.earn-section .outer-box {
   align-items: stretch;
-  border-radius: 24px;
-  text-align: left;
+  padding: 1px;
+  box-sizing: border-box;
+  width: 33.33%;
+  background: linear-gradient(rgb(183, 27, 148), rgb(115, 18, 194));
 }
-.earn-section .earn-act .gradient-box {
-  min-width: 384px;
-  border: 1px;
+.earn-section .inner-box {
+  background: #1E0E41;
+  padding: 64px 42px 54px 32px;
+  height: 100%;
+  box-sizing: border-box;
 }
-.earn-section .earn-act .gradient-box .heading {
+.earn-section .inner-box .heading {
   font-size: 24px;
   text-align: left;
+  margin-top: 40px;
+}
+.earn-section .inner-box .description {
+  margin-top: 16px;
 }
 
 /*# sourceMappingURL=style.css.map */
