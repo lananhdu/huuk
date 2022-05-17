@@ -1,6 +1,22 @@
-.earn-act {
-    display: flex;
-    align-items: stretch;
-    border: 1px;
-    border-radius: 24px;
+.earn-section {
+    padding: 120px;
+
+    .earn-act {
+        gap: 32px;
+        
+        display: flex;
+        align-items: stretch;
+        border-radius: 24px;
+        text-align: left;
+
+        .gradient-box {
+            min-width: 384px;
+            border: 1px;
+            .heading {
+                font-size: 24px;
+                text-align: left;
+            }
+
+        }
+    }
 }

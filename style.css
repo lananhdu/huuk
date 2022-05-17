@@ -347,8 +347,6 @@ body {
 .container {
   max-width: 1216px;
   margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
 }
 
 .wrapper {
@@ -374,6 +372,7 @@ body {
   font-size: 40px;
   font-weight: 700;
   color: #F7F7F7;
+  text-align: center;
 }
 
 .description {
@@ -390,6 +389,8 @@ body {
   align-items: center;
   gap: 2em;
   direction: column;
+  display: flex;
+  justify-content: space-between;
 }
 @media (min-width: 1000px) {
   #site-header .container {
@@ -456,11 +457,23 @@ body {
   margin-left: 125px;
 }
 
-.earn-act {
+.earn-section {
+  padding: 120px;
+}
+.earn-section .earn-act {
+  gap: 32px;
   display: flex;
   align-items: stretch;
-  border: 1px;
   border-radius: 24px;
+  text-align: left;
+}
+.earn-section .earn-act .gradient-box {
+  min-width: 384px;
+  border: 1px;
+}
+.earn-section .earn-act .gradient-box .heading {
+  font-size: 24px;
+  text-align: left;
 }
 
 /*# sourceMappingURL=style.css.map */
