@@ -15,6 +15,7 @@ body {
     max-width: 1100px;
     margin: 0 auto;
     justify-content: center;
+    display: flex;
 }
 .button {
     background: linear-gradient(90deg, #C21D8D 0%, #6D11C7 100%);
@@ -28,4 +29,10 @@ body {
     &:hover {
         background: linear-gradient(90deg, #6D11C7 0%, #C21D8D 100%);
     }
+}
+.heading {
+    font-size: 40px;
+    text-align: center;
+    font-weight: 700;
+    color: $heading-color;
 }
