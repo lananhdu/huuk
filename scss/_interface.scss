@@ -1,0 +1,32 @@
+#content {
+    .interface-section {
+        background: linear-gradient(180deg, #1C1C28 0%, rgba(28, 28, 40, 0) 100%);
+
+        .wrapper {
+            display: flex;
+            align-items: stretch;
+
+            .app-text {
+                margin-top: 141px;
+                max-width: 472px;
+                text-align: left;
+                .heading {
+                    text-align: left;
+                }
+                .description {
+                    font-size: 18px;
+                }
+
+                .button {
+                    margin-top: 48px;
+                }
+            }
+
+            a {
+                margin-left: 125px;
+            }
+
+        }
+
+    }
+}
