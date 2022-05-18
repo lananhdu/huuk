@@ -3,15 +3,17 @@
         .timeline-year {
             color: #FFFFFF;
         }
+
         .heading {
             font-size: 16px;
-.title {
-    color: $heading-color;
-}
+
+            .title {
+                color: $heading-color;
+            }
             li {
-                
-                    color: $text-color;
-                
+
+                color: $text-color;
+
             }
         }
     }
