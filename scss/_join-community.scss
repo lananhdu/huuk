@@ -1,0 +1,18 @@
+.join-section {
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(292.47deg, #3300B9 8.84%, #4000AD 39.51%, #9B0DD0 76.98%, #F274D0 95.97%);
+    .join-text {
+        max-width: 521px;
+        padding-top: 78px;
+        padding-bottom: 82px;
+        text-align: center;
+        .heading {
+            font-size: 36px;
+        }
+        .description {
+            font-size: 18px;
+            color: #FFFFFF;
+        }
+    }
+}

@@ -1,0 +1,22 @@
+.partners-section {
+    padding:120px;
+    .container {
+        background-color: rgba(41, 23, 81, 1);
+        border-radius: 24px;
+        padding: 64px 69px;
+        flex-direction: row;
+
+        .row {
+            .above-box {
+                display: flex;
+                padding-bottom: 63px;
+                padding-top: 48px;
+                gap: 91px;
+            }
+            .below-box {
+                display: flex;
+                gap: 60px;
+            }
+        }
+    }
+}

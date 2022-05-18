@@ -1,0 +1,38 @@
+#footer {
+    .container {
+        margin-top: 56px;
+        margin-bottom: 32px;
+    }
+
+    .contact-info {
+        display: flex;
+        justify-content: space-between;
+
+
+        .row {
+            color: #FFFFFF;
+            font-size: 20px;
+            display: flex;
+
+            a {
+                color: #FFFFFF;
+                text-decoration: none;
+            }
+
+            .social-icons {
+                color: rgba(138, 137, 159, 1);
+                margin-left: 82px;
+            }
+        }
+    }
+    .line {
+        margin-top: 56px;
+        border: 1px solid #C3C2D4;
+        opacity: 0.2;   
+    }
+    .description {
+        color: $text-color;
+        text-align: center;
+        font-size: 18px;
+    }
+}
