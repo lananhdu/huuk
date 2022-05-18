@@ -493,6 +493,19 @@ body {
   margin-top: 16px;
 }
 
+.roadmap-section .timeline .timeline-year {
+  color: #FFFFFF;
+}
+.roadmap-section .timeline .heading {
+  font-size: 16px;
+}
+.roadmap-section .timeline .heading .title {
+  color: #F7F7F7;
+}
+.roadmap-section .timeline .heading li {
+  color: rgb(195, 194, 212);
+}
+
 .team-section {
   padding: 120px;
   background: linear-gradient(0deg, #1C1C28 0%, rgba(28, 28, 40, 0) 100%);
