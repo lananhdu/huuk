@@ -409,6 +409,7 @@ body {
   border: 2px solid #fff;
   background: transparent;
   display: none;
+  margin-left: 48px;
 }
 @media (min-width: 1000px) {
   #site-header nav .button {
@@ -492,6 +493,39 @@ body {
   margin-top: 16px;
 }
 
+.team-section {
+  padding: 120px;
+  background: linear-gradient(0deg, #1C1C28 0%, rgba(28, 28, 40, 0) 100%);
+}
+.team-section .row {
+  display: flex;
+  padding: 32px;
+  gap: 32px;
+}
+.team-section .outer-box {
+  padding: 1px;
+  box-sizing: border-box;
+  width: 33.33%;
+  border-radius: 16px;
+  background: linear-gradient(rgb(183, 27, 148), rgb(115, 18, 194));
+}
+.team-section .inner-box {
+  background: #1E0E41;
+  height: 100%;
+  box-sizing: border-box;
+  border-radius: 16px;
+}
+.team-section .inner-box .heading {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 0px;
+  margin-top: 32px;
+}
+.team-section .inner-box .description {
+  margin-bottom: 32px;
+  margin-top: 8px;
+}
+
 .partners-section {
   padding: 120px;
 }
@@ -499,17 +533,12 @@ body {
   background-color: rgb(41, 23, 81);
   border-radius: 24px;
   padding: 64px 69px;
-  flex-direction: row;
 }
-.partners-section .container .row .above-box {
+.partners-section .container .row .outer-box {
   display: flex;
-  padding-bottom: 63px;
-  padding-top: 48px;
-  gap: 91px;
-}
-.partners-section .container .row .below-box {
-  display: flex;
-  gap: 60px;
+  padding-bottom: 31px;
+  padding-top: 24px;
+  justify-content: space-between;
 }
 
 .join-section {
@@ -543,6 +572,7 @@ body {
   color: #FFFFFF;
   font-size: 20px;
   display: flex;
+  margin-top: 37px;
 }
 #footer .contact-info .row a {
   color: #FFFFFF;
@@ -551,6 +581,8 @@ body {
 #footer .contact-info .row .social-icons {
   color: rgb(138, 137, 159);
   margin-left: 82px;
+  display: flex;
+  gap: 20px;
 }
 #footer .line {
   margin-top: 56px;
