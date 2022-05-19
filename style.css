@@ -499,10 +499,11 @@ body {
 .roadmap-section .timeline .heading {
   font-size: 16px;
 }
-.roadmap-section .timeline .heading .title {
+.roadmap-section .timeline .title {
   color: #F7F7F7;
+  font-size: 16px;
 }
-.roadmap-section .timeline .heading li {
+.roadmap-section .timeline li {
   color: rgb(195, 194, 212);
 }
 
@@ -551,16 +552,21 @@ body {
   display: flex;
   padding-bottom: 31px;
   padding-top: 24px;
-  justify-content: space-between;
+}
+.partners-section .container .row .outer-box a {
+  width: 20%;
+  box-sizing: border-box;
 }
 
 .join-section {
   display: flex;
-  justify-content: space-between;
   background: linear-gradient(292.47deg, #3300B9 8.84%, #4000AD 39.51%, #9B0DD0 76.98%, #F274D0 95.97%);
 }
+.join-section div {
+  width: 33.333%;
+  box-sizing: border-box;
+}
 .join-section .join-text {
-  max-width: 521px;
   padding-top: 78px;
   padding-bottom: 82px;
   text-align: center;

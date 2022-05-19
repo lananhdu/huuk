@@ -11,7 +11,10 @@
                 display: flex;
                 padding-bottom: 31px;
                 padding-top: 24px;
-                justify-content: space-between;
+                a {
+                    width: 20%;
+                    box-sizing: border-box;
+                }
             }
         }
     }
