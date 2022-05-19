@@ -584,9 +584,9 @@ body {
   display: flex;
   padding-bottom: 31px;
   padding-top: 24px;
+  justify-content: space-between;
 }
 .partners-section .container .row .outer-box a {
-  width: 20%;
   box-sizing: border-box;
 }
 
