@@ -1,21 +1,64 @@
-.roadmap-section {
+.main-timeline {
     .timeline {
-        .timeline-year {
-            color: #FFFFFF;
-        }
+        .timeline-content {
+            list-style-type: none;
+            position: relative;
+            width: 1px;
+            margin: 0 auto;
+            padding-top: 50px;
+            background: linear-gradient(270deg, #7512C1 10.5%, #B51A95 99.88%);
 
-        .heading {
-            font-size: 16px;}
-           
-        .title {
+
+            &::before {
+                content: "";
+                position: absolute;
+                left: -50%;
+                bottom: 0;
+                transform: translateX(-50%);
+                width: 140px;
+                height: 50px;
+                border-radius: 8%;
+                background: inherit;
+                z-index: -1;
+            }
+
+            .timeline-text {
+                position: relative;
+                bottom: 0;
+                width: 400px;
+                padding: 15px;
+                margin-left: 133px;
+
+                &::before {
+                    content: "";
+                    position: absolute;
+                    // bottom: 7px;
+                    // width: 0;
+                    // height: 0;
+                    border-style: solid;
+                }
+
+
+            }
+
+            .timeline-year {
+                color: #FFFFFF;
+            }
+
+            .heading {
+                font-size: 16px;
+            }
+
+            .title {
                 color: $heading-color;
                 font-size: 16px;
             }
+
             li {
 
                 color: $text-color;
 
             }
-        
+        }
     }
 }

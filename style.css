@@ -493,17 +493,49 @@ body {
   margin-top: 16px;
 }
 
-.roadmap-section .timeline .timeline-year {
+.main-timeline .timeline .timeline-content {
+  list-style-type: none;
+  position: relative;
+  width: 1px;
+  margin: 0 auto;
+  padding-top: 50px;
+  background: linear-gradient(270deg, #7512C1 10.5%, #B51A95 99.88%);
+}
+.main-timeline .timeline .timeline-content::before {
+  content: "";
+  position: absolute;
+  left: -50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  width: 140px;
+  height: 50px;
+  border-radius: 8%;
+  background: inherit;
+  z-index: -1;
+}
+.main-timeline .timeline .timeline-content .timeline-text {
+  position: relative;
+  bottom: 0;
+  width: 400px;
+  padding: 15px;
+  margin-left: 133px;
+}
+.main-timeline .timeline .timeline-content .timeline-text::before {
+  content: "";
+  position: absolute;
+  border-style: solid;
+}
+.main-timeline .timeline .timeline-content .timeline-year {
   color: #FFFFFF;
 }
-.roadmap-section .timeline .heading {
+.main-timeline .timeline .timeline-content .heading {
   font-size: 16px;
 }
-.roadmap-section .timeline .title {
+.main-timeline .timeline .timeline-content .title {
   color: #F7F7F7;
   font-size: 16px;
 }
-.roadmap-section .timeline li {
+.main-timeline .timeline .timeline-content li {
   color: rgb(195, 194, 212);
 }
 
