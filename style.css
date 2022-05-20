@@ -862,6 +862,7 @@ body {
   margin-left: 82px;
   display: flex;
   gap: 20px;
+  margin-top: 6px;
 }
 #footer .line {
   margin-top: 56px;
