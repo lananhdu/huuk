@@ -438,9 +438,12 @@ body {
   margin: 24px;
   margin-bottom: 64px;
 }
+.intro-section .wrapper .intro-text img {
+  max-width: 100%;
+}
 
 @media (max-width: 768px) {
-  .intro-section img {
+  .intro-section .wrapper .intro-text img {
     max-width: 95%;
   }
 }
@@ -743,7 +746,7 @@ body {
 .team-section .outer-box {
   padding: 1px;
   box-sizing: border-box;
-  width: 33.33%;
+  width: calc(33.33% - 22px);
   border-radius: 16px;
   background: linear-gradient(rgb(183, 27, 148), rgb(115, 18, 194));
 }
@@ -797,6 +800,7 @@ body {
 @media (max-width: 768px) {
   .partners-section {
     padding: 15px;
+    margin-top: 100px;
   }
   .partners-section .container .row .outer-box {
     display: grid;

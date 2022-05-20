@@ -9,7 +9,7 @@
     .outer-box {
         padding: 1px;
         box-sizing: border-box;
-        width: 33.33%;
+        width: calc(33.33% - 22px);
         border-radius: 16px;
         background: linear-gradient(rgba(183, 27, 148, 1),
         rgba(115, 18, 194, 1)); 
