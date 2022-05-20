@@ -104,28 +104,22 @@
 }
 #q1-2022 {
     grid-row: 1 / span 2;
+    margin-bottom: 122px;
 }
 
 #q2-2022 {
     grid-row: 2 / span 3;
-
-    .timeline-content {
-        margin-bottom: 84px;
-
-    }
+    margin-bottom: 309px;
 }
 
 #q3-2022 {
     grid-row: 4 / span 2;
-
-    .timeline-content {
-        margin-bottom: 32px;
-    }
+    margin-bottom: 110px;
 }
 
 #q4-2022 {
     grid-row: 5;
-
+    margin-bottom: 56px;
     .timeline-content {
         .description {
             color: #FFFFFF;
@@ -136,36 +130,43 @@
 
 #q1-2023 {
     grid-row: 6;
+    margin-bottom: 66px;
 }
 
 #q2-2023 {
     grid-column: 2;
     grid-row: 7;
+    margin-bottom: 66px;
 }
 
 #q3-2023 {
     grid-column: 1;
     grid-row: 8;
+    margin-bottom: 40px;
 }
 
 #q4-2023 {
     grid-column: 2;
     grid-row: 9;
+    margin-bottom: 66px;
 }
 
 #q1-2024 {
     grid-column: 1;
     grid-row: 10;
+    margin-bottom: 66px;
 }
 
 #q2-2024 {
     grid-column: 2;
     grid-row: 11;
+    margin-bottom: 40px;
 }
 
 #q3-2024 {
     grid-column: 1;
     grid-row: 12;
+    margin-bottom: 66px;
 }
 
 #q4-2024 {
