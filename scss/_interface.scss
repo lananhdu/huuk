@@ -10,9 +10,11 @@
                 margin-top: 141px;
                 max-width: 472px;
                 text-align: left;
+
                 .heading {
                     text-align: left;
                 }
+
                 .description {
                     font-size: 18px;
                 }
@@ -29,5 +31,28 @@
 
         }
 
+    }
+}
+
+@media (max-width: 768px) {
+    #content {
+        .interface-section {
+            .wrapper {
+                max-width: 570px;
+                display: flex;
+                align-items: center;
+
+                .app-text {
+                    margin: 0 auto;
+                    max-width: 333px;
+
+                }
+
+                a {
+                    margin: 0 auto;
+                    padding: 0;
+                }
+            }
+        }
     }
 }

@@ -30,3 +30,14 @@
 
         }
     }
+    @media (max-width: 768px) {
+        .earn-section {
+            .row {
+                flex-direction: column;
+           }
+           .outer-box {
+               width: 100%;
+           }
+        }
+        }
+    

@@ -9,9 +9,6 @@
         display: flex;
         justify-content: space-between;
 
-        @media (min-width: 1000px) {
-            direction: row;
-        }
     }
 
     nav {
@@ -29,9 +26,19 @@
             display: none;
             margin-left: 48px;
 
-            @media (min-width: 1000px) {
-                display: inline-block;
-            }
+           
         }
     }
+}
+@media (max-width: 1000px) {
+#site-header {
+    .container {
+        direction: row;
+    }
+    nav {
+        .button {
+            display: inline-block;
+        }
+    }
+}
 }

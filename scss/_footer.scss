@@ -29,14 +29,25 @@
             }
         }
     }
+
     .line {
         margin-top: 56px;
         border: 1px solid #C3C2D4;
-        opacity: 0.2;   
+        opacity: 0.2;
     }
+
     .description {
         color: $text-color;
         text-align: center;
         font-size: 18px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    #footer {
+        .contact-info {
+            flex-direction: column;
+        }
     }
 }

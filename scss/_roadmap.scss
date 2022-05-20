@@ -186,3 +186,17 @@
     left: 0;
     transform: translateX(-50%);
 }
+@media (max-width: 768px) {
+    .main-timeline {
+        .timeline:nth-child(odd) {
+            padding-right: 20px;
+        }
+        
+        .timeline:nth-child(even) {
+            padding-left: 20px;
+        }
+        &::before {
+            bottom: 90px;
+        }
+    }
+}

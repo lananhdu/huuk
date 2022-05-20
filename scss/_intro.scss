@@ -1,4 +1,4 @@
-#content {
+
     .intro-section {
         background: linear-gradient(180deg, #3A156A -15.09%, rgba(58, 21, 106, 0) 84.91%);
         .wrapper {
@@ -6,11 +6,13 @@
             .intro-text {
                 .heading {
                     font-size: 60px;
-                    padding: 52px;
+                    padding-top: 52px;
                 }
     
                 .description {
                     font-size: 20px;
+                    max-width: 815px;
+                    margin: 0 auto;
                 }
     
                 .intro-button {
@@ -22,5 +24,19 @@
         }
         
         
+    
+}
+@media (max-width: 768px) {
+   .intro-section {
+        .wrapper { 
+            .intro-text {
+            .description {
+                max-width: 600px;
+
+            } 
+        }
+    }}
+    img {
+        max-width: 80%;
     }
 }

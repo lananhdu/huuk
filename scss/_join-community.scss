@@ -1,10 +1,10 @@
 .join-section {
-   
+
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     background: linear-gradient(292.47deg, #3300B9 8.84%, #4000AD 39.51%, #9B0DD0 76.98%, #F274D0 95.97%);
 
-    
+
     .join-text {
         padding-top: 78px;
         padding-bottom: 82px;
@@ -17,11 +17,29 @@
         .description {
             font-size: 18px;
             color: #FFFFFF;
+            max-width: 530px;
+            max-width: 530px;
+            margin: auto;
         }
+            button {
+                margin-top: 45px;
+            }
+        
 
 
     }
+
     .img-right {
         justify-self: end;
     }
+}
+@media (max-width:768px) {
+    .join-section {
+    direction: row;
+    align-items: center;
+        img {
+            display: none;
+        }
+    }
+
 }
