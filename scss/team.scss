@@ -31,3 +31,16 @@
         }
     }
 }
+@media (max-width: 768px) {
+    .team-section {
+        padding: 0;
+        .row {
+            padding: 15px;
+        }
+        .inner-box {
+            img{
+                max-width: 222px;
+            }
+        }
+    }
+}

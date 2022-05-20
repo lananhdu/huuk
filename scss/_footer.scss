@@ -47,7 +47,18 @@
 @media (max-width: 768px) {
     #footer {
         .contact-info {
-            flex-direction: column;
+            padding: 15px;
+            .description {
+                text-align: left;
+            }
+            .row {
+                display: block;
+                .social-icons {
+                    margin-top: 10px;
+                    justify-content:flex-end;
+                }
+            }
+
         }
     }
 }

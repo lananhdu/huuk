@@ -32,6 +32,10 @@
     }
     @media (max-width: 768px) {
         .earn-section {
+            padding: 15px;
+            .heading {
+                margin-top: 65px;
+            }
             .row {
                 flex-direction: column;
            }

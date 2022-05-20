@@ -11,9 +11,25 @@
                 display: flex;
                 padding-bottom: 31px;
                 padding-top: 24px;
+                row-gap: 63px;
+                align-items: center;
+                flex-wrap: wrap;
                 justify-content: space-between;
-                a {
-                    box-sizing: border-box;
+                column-gap: 41px;
+            }
+        }
+    }
+}
+
+@media (max-width:768px) {
+    .partners-section {
+        padding: 15px;
+        .container {
+            .row {
+                .outer-box {
+                    display: grid;
+                    grid-template-columns: 1fr 1fr;
+                    justify-items: center;
                 }
             }
         }

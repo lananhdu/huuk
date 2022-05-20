@@ -24,19 +24,12 @@
         }
         
         
-    
-}
-@media (max-width: 768px) {
-   .intro-section {
-        .wrapper { 
-            .intro-text {
-            .description {
-                max-width: 600px;
-
-            } 
-        }
-    }}
-    img {
-        max-width: 80%;
     }
+
+@media (max-width: 768px) {
+  .intro-section{
+    img {
+        max-width: 95%;
+    }
+}
 }

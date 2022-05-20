@@ -1,11 +1,11 @@
 #site-header {
-    padding: $gap;
+    padding: 1.5em;
     background: $primary-bg;
 
     .container {
         align-items: center;
         gap: $big-gap;
-        direction: column;
+        direction: row;
         display: flex;
         justify-content: space-between;
 
@@ -23,21 +23,24 @@
         .button {
             border: 2px solid #fff;
             background: transparent;
-            display: none;
+            display: inline-block;
             margin-left: 48px;
 
            
         }
     }
 }
-@media (max-width: 1000px) {
+@media (max-width: 768px) {
 #site-header {
     .container {
-        direction: row;
+        flex-direction: column;
+        img {
+            justify-content: center;
+        }
     }
     nav {
         .button {
-            display: inline-block;
+            display: none;
         }
     }
 }

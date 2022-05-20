@@ -38,13 +38,18 @@
     #content {
         .interface-section {
             .wrapper {
-                max-width: 570px;
+                max-width: 700px;
                 display: flex;
                 align-items: center;
 
                 .app-text {
                     margin: 0 auto;
-                    max-width: 333px;
+                    max-width: 392px;
+
+                    .button {
+                        margin-bottom: 50px;
+                        margin-top: 0;
+                    }
 
                 }
 
@@ -53,6 +58,13 @@
                     padding: 0;
                 }
             }
+        }
+    }
+}
+@media (max-width:768px){
+    .interface-section {
+        img {
+            max-width: 200px;
         }
     }
 }
