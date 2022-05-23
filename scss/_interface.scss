@@ -61,10 +61,18 @@
         }
     }
 }
-@media (max-width:768px){
-    .interface-section {
-        img {
-            max-width: 200px;
+
+@media (max-width:400px) {
+   #content{ .interface-section {
+        .wrapper {
+            display: grid;
+            grid-template-columns: 1fr;
+            .app-text {
+                padding: 15px;
+            }
+            img {
+                width: 100%;
+            }
         }
     }
-}
+}}

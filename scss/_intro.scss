@@ -42,3 +42,21 @@
         }
     }
 }
+@media (max-width: 400px) {
+    .intro-section {
+        .wrapper {
+            
+            .intro-text {
+                button {
+                    margin-bottom: 20px;
+                }
+                .intro-button {
+                    margin-bottom: 20px;}
+
+                img {
+                    max-width: 95%;
+                }
+            
+        }}
+    }
+}

@@ -204,3 +204,24 @@
         }
     }
 }
+@media (max-width:400px) {
+    .main-timeline {
+        display: block;
+        grid-template-columns: 1fr; 
+        .timeline {
+            .timeline-content {
+                margin-left: 130px;
+                margin-right: 15px;
+        }}
+        .timeline:nth-child(odd) .timeline-year::before {
+            right: unset;}
+        .timeline:nth-child(odd) .timeline-year {
+            right: unset;
+            transform:translateX(15%);
+        }
+        .timeline:nth-child(even) .timeline-year {
+            left: none;
+            transform: translateX(15%);
+        }
+ }
+}

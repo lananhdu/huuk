@@ -56,7 +56,28 @@
                 display: block;
                 .social-icons {
                     margin-top: 10px;
-                    justify-content:flex-end;
+                    justify-content: end;
+                }
+            }
+
+        }
+    }
+}
+@media (max-width: 400px) {
+    #footer {
+        .contact-info {
+            display: grid;
+                grid-column: reaeat(1,1fr);
+            padding: 15px;
+            .description {
+                text-align: left;
+            }
+            .row {
+                display: block;
+                margin-top: 0;
+                .social-icons {
+                    margin-top: 10px;
+                    justify-content:start;
                 }
             }
 
