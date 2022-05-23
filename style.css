@@ -430,6 +430,7 @@ html {
 }
 .intro-section {
   background: linear-gradient(180deg, #3A156A -15.09%, rgba(58, 21, 106, 0) 84.91%);
+  padding-top: 120px;
 }
 .intro-section .wrapper {
   max-width: 1100px;
@@ -860,7 +861,7 @@ html {
   border-radius: 16px;
 }
 .team-section .inner-box img {
-  width: 273px;
+  max-width: 273px;
 }
 .team-section .inner-box .heading {
   font-size: 24px;
