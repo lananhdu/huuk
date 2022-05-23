@@ -854,22 +854,25 @@ html {
   border-radius: 16px;
   background: linear-gradient(rgb(183, 27, 148), rgb(115, 18, 194));
 }
-.team-section .inner-box {
+.team-section .outer-box:hover {
+  transform: translateY(-10px);
+}
+.team-section .outer-box .inner-box {
   background: #1E0E41;
   height: 100%;
   box-sizing: border-box;
   border-radius: 16px;
 }
-.team-section .inner-box img {
+.team-section .outer-box .inner-box img {
   max-width: 273px;
 }
-.team-section .inner-box .heading {
+.team-section .outer-box .inner-box .heading {
   font-size: 24px;
   text-align: center;
   margin-bottom: 0px;
   margin-top: 32px;
 }
-.team-section .inner-box .description {
+.team-section .outer-box .inner-box .description {
   margin-bottom: 32px;
   margin-top: 8px;
 }
