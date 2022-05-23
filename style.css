@@ -422,7 +422,7 @@ body {
   background: linear-gradient(180deg, #3A156A -15.09%, rgba(58, 21, 106, 0) 84.91%);
 }
 .intro-section .wrapper {
-  width: 1100px;
+  max-width: 1100px;
 }
 .intro-section .wrapper .intro-text .heading {
   font-size: 60px;
@@ -486,7 +486,7 @@ body {
 
 @media (max-width: 768px) {
   #content .interface-section .wrapper {
-    width: 700px;
+    max-width: 700px;
     display: flex;
     align-items: center;
   }
@@ -958,6 +958,11 @@ body {
   }
   .join-section img {
     display: none;
+  }
+}
+@media (max-width: 400px) {
+  .join-section .join-text .description {
+    width: unset;
   }
 }
 #footer .container {
