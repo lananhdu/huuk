@@ -381,9 +381,19 @@ body {
   font-weight: 400;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 #site-header {
   padding: 1.5em;
   background: #1E0E41;
+  padding: 1.5em;
+  top: 0px;
+  position: fixed;
+  left: 0px;
+  width: 1600px;
+  z-index: 99;
 }
 #site-header .container {
   align-items: center;
@@ -516,7 +526,7 @@ body {
   }
 }
 .earn-section {
-  padding: 120px;
+  padding-top: 120px;
 }
 .earn-section .row {
   display: flex;
@@ -563,6 +573,7 @@ body {
 .roadmap-section {
   max-width: 1044px;
   margin: 0 auto;
+  padding-top: 120px;
 }
 
 .main-timeline {
