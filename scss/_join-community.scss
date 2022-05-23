@@ -46,7 +46,11 @@
    .join-text {
        .description {
            width: unset;
+           padding: 15px;
        }
+       button {
+        margin-top: 30px;
+    }
    }
         }
     }

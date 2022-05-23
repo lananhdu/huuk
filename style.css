@@ -963,6 +963,10 @@ body {
 @media (max-width: 400px) {
   .join-section .join-text .description {
     width: unset;
+    padding: 15px;
+  }
+  .join-section .join-text button {
+    margin-top: 30px;
   }
 }
 #footer .container {
