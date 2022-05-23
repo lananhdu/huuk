@@ -761,6 +761,15 @@ body {
     margin-left: 130px;
     margin-right: 15px;
   }
+  .main-timeline .timeline .timeline-content .timeline-text {
+    margin-bottom: 12px;
+  }
+  .main-timeline .timeline:nth-child(odd) {
+    padding-right: unset;
+  }
+  .main-timeline .timeline:nth-child(odd) .timeline-content {
+    margin-left: 150px;
+  }
   .main-timeline .timeline:nth-child(odd) .timeline-year::before {
     right: unset;
   }
@@ -771,6 +780,50 @@ body {
   .main-timeline .timeline:nth-child(even) .timeline-year {
     left: none;
     transform: translateX(15%);
+  }
+
+  #q2-2022 {
+    margin-top: 30px;
+  }
+
+  #q3-2022 {
+    margin-top: 30px;
+  }
+
+  #q4-2022 {
+    margin-top: 30px;
+  }
+  #q4-2022 .timeline-content .description {
+    color: #FFFFFF;
+    font-weight: 700;
+  }
+
+  #q1-2023 {
+    margin-top: 30px;
+  }
+
+  #q2-2023 {
+    margin-top: 30px;
+  }
+
+  #q3-2023 {
+    margin-top: 30px;
+  }
+
+  #q4-2023 {
+    margin-top: 30px;
+  }
+
+  #q1-2024 {
+    margin-top: 30px;
+  }
+
+  #q2-2024 {
+    margin-top: 30px;
+  }
+
+  #q3-2024 {
+    margin-top: 30px;
   }
 }
 .team-section {
