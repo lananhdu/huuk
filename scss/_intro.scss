@@ -2,7 +2,7 @@
     background: linear-gradient(180deg, #3A156A -15.09%, rgba(58, 21, 106, 0) 84.91%);
 
     .wrapper {
-        max-width: 1100px;
+        width: 1100px;
 
         .intro-text {
             .heading {
@@ -36,7 +36,7 @@
         .wrapper {
             .intro-text {
                 img {
-                    max-width: 95%;
+                    width: 95%;
                 }
             }
         }
@@ -54,7 +54,7 @@
                     margin-bottom: 20px;}
 
                 img {
-                    max-width: 95%;
+                    width: 95%;
                 }
             
         }}

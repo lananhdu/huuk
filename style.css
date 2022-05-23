@@ -422,7 +422,7 @@ body {
   background: linear-gradient(180deg, #3A156A -15.09%, rgba(58, 21, 106, 0) 84.91%);
 }
 .intro-section .wrapper {
-  max-width: 1100px;
+  width: 1100px;
 }
 .intro-section .wrapper .intro-text .heading {
   font-size: 60px;
@@ -444,7 +444,7 @@ body {
 
 @media (max-width: 768px) {
   .intro-section .wrapper .intro-text img {
-    max-width: 95%;
+    width: 95%;
   }
 }
 @media (max-width: 400px) {
@@ -455,7 +455,7 @@ body {
     margin-bottom: 20px;
   }
   .intro-section .wrapper .intro-text img {
-    max-width: 95%;
+    width: 95%;
   }
 }
 #content .interface-section {
@@ -486,7 +486,7 @@ body {
 
 @media (max-width: 768px) {
   #content .interface-section .wrapper {
-    max-width: 700px;
+    width: 700px;
     display: flex;
     align-items: center;
   }
@@ -942,8 +942,7 @@ body {
 .join-section .join-text .description {
   font-size: 18px;
   color: #FFFFFF;
-  max-width: 530px;
-  max-width: 530px;
+  width: 530px;
   margin: auto;
 }
 .join-section .join-text button {
