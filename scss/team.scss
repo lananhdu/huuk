@@ -27,7 +27,7 @@
             border-radius: 16px;
 
             img {
-                max-width: 273px;
+                width: 100%;
             }
 
             .heading {
@@ -45,7 +45,7 @@
     }
 
     .modal {
-        display: none; 
+        display: none;
         position: fixed;
         z-index: 1;
         padding-top: 100px;
@@ -58,22 +58,26 @@
         background-color: rgba(0, 0, 0, 0.4);
 
         .modal-content {
-           
+
             background-color: rgb(41, 23, 81);
             margin: auto;
             padding: 30px;
             border-radius: 20px;
             width: 45%;
+
             div {
                 display: flex;
+
                 div {
                     flex-direction: column;
                     margin-left: 50px;
+
                     .heading {
                         font-size: 24px;
                         text-align: left;
                         margin: unset;
                     }
+
                     .description {
                         color: rgb(183, 27, 148);
                         font-style: italic;
@@ -107,9 +111,11 @@
             padding: 15px;
         }
 
-        .inner-box {
-            img {
-                width: 222px;
+        .outer-box {
+            .inner-box {
+                img {
+                    width: 100%;
+                }
             }
         }
     }

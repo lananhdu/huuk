@@ -37,8 +37,7 @@
 
             }
         }
-
-        button {
+        #hamburger {
             display: none;
         }
     }
@@ -52,13 +51,13 @@
             img {
                 justify-content: center;
             }
-        }
+        
 
         .menu {
             .button {
                 display: none;
             }
-        }
+        }}
     }
 }
 
@@ -66,8 +65,44 @@
     #site-header {
         .container {
             flex-direction: unset;
-        }
+            .menu {
+                text-align: left;
+                background: rgb(37, 37, 37);
+                padding: 15px;
+                position: fixed;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 85px;
+                transform: translateX(-100%);
+
+                a {
+                    display: block;
+                }
+
+                .button {
+                    display: none;
+                }
+
+                &.active {
+                    transform: translateX(0);
+                }
+            }
+
+            #hamburger {
+                background: transparent;
+                border: none;
+                display: block;
+                
+                div {
+                    width: 35px;
+                    height: 3px;
+                    background-color: $text-color;
+                    margin: 6px 0;
+                    
+                }
+            }
+
         }
     }
-
 }

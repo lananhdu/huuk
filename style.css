@@ -402,21 +402,21 @@ html {
   display: flex;
   justify-content: space-between;
 }
-#site-header .menu {
+#site-header .container .menu {
   text-align: center;
 }
-#site-header .menu a {
+#site-header .container .menu a {
   color: rgb(195, 194, 212);
   text-decoration: none;
   margin: 0.75em;
 }
-#site-header .menu .button {
+#site-header .container .menu .button {
   border: 2px solid #fff;
   background: transparent;
   display: inline-block;
   margin-left: 48px;
 }
-#site-header button {
+#site-header .container #hamburger {
   display: none;
 }
 
@@ -427,7 +427,7 @@ html {
   #site-header .container img {
     justify-content: center;
   }
-  #site-header .menu .button {
+  #site-header .container .menu .button {
     display: none;
   }
 }
@@ -436,35 +436,35 @@ html {
     flex-direction: unset;
   }
   #site-header .container .menu {
+    text-align: left;
+    background: rgb(37, 37, 37);
+    padding: 15px;
     position: fixed;
-    transform: translateX(-100%);
-    transition: transform 0.2s;
     top: 0;
-    left: 0;
-    right: 1;
     bottom: 0;
-    z-index: 99;
-    background: black;
-    color: #F7F7F7;
-    list-style: none;
-    padding-top: 4rem;
+    left: 0;
+    right: 85px;
+    transform: translateX(-100%);
   }
-  #site-header .container .hamburger {
+  #site-header .container .menu a {
     display: block;
-    position: fixed;
-    z-index: 100;
-    top: 1rem;
-    right: 1rem;
-    padding: 4px;
-    border: black solid 1px;
-    background: white;
-    cursor: pointer;
   }
-  #site-header .container .hamburger .closeIcon {
+  #site-header .container .menu .button {
     display: none;
   }
-  #site-header .container .hamburger .showMenu {
+  #site-header .container .menu.active {
     transform: translateX(0);
+  }
+  #site-header .container #hamburger {
+    background: transparent;
+    border: none;
+    display: block;
+  }
+  #site-header .container #hamburger div {
+    width: 35px;
+    height: 3px;
+    background-color: rgb(195, 194, 212);
+    margin: 6px 0;
   }
 }
 .intro-section {
@@ -903,7 +903,7 @@ html {
   border-radius: 16px;
 }
 .team-section .outer-box .inner-box img {
-  max-width: 273px;
+  width: 100%;
 }
 .team-section .outer-box .inner-box .heading {
   font-size: 24px;
@@ -970,8 +970,8 @@ html {
   .team-section .row {
     padding: 15px;
   }
-  .team-section .inner-box img {
-    width: 222px;
+  .team-section .outer-box .inner-box img {
+    width: 100%;
   }
 }
 @media (max-width: 400px) {

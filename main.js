@@ -1,8 +1,12 @@
 //ham menu
+var hamBtn = document.getElementById("hamburger");
+hamBtn.addEventListener('click', function (event) {
+    var nav = document.getElementById("menu");
+    nav.classList.toggle("active");
+})
 
 
-
-/* popup tram-section */
+/* popup team-section */
 
 
 // Get the button that opens the modal
