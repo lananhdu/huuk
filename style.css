@@ -890,14 +890,30 @@ html {
   background-color: rgba(0, 0, 0, 0.4);
 }
 .team-section .modal .modal-content {
-  background-color: #fefefe;
+  background-color: rgb(41, 23, 81);
   margin: auto;
-  padding: 20px;
-  border: 1px solid #888;
+  padding: 40px;
+  border-radius: 20px;
   width: 80%;
 }
+.team-section .modal .modal-content div {
+  display: flex;
+}
+.team-section .modal .modal-content div div {
+  flex-direction: column;
+  margin-left: 50px;
+}
+.team-section .modal .modal-content div div .heading {
+  font-size: 24px;
+  text-align: left;
+  margin: unset;
+}
+.team-section .modal .modal-content div div .description {
+  color: rgb(183, 27, 148);
+  font-style: italic;
+}
 .team-section .modal .modal-content .close {
-  color: #aaaaaa;
+  color: #F7F7F7;
   float: right;
   font-size: 28px;
   font-weight: bold;
