@@ -402,19 +402,22 @@ html {
   display: flex;
   justify-content: space-between;
 }
-#site-header nav {
+#site-header .menu {
   text-align: center;
 }
-#site-header nav a {
+#site-header .menu a {
   color: rgb(195, 194, 212);
   text-decoration: none;
   margin: 0.75em;
 }
-#site-header nav .button {
+#site-header .menu .button {
   border: 2px solid #fff;
   background: transparent;
   display: inline-block;
   margin-left: 48px;
+}
+#site-header button {
+  display: none;
 }
 
 @media (max-width: 768px) {
@@ -424,8 +427,44 @@ html {
   #site-header .container img {
     justify-content: center;
   }
-  #site-header nav .button {
+  #site-header .menu .button {
     display: none;
+  }
+}
+@media (max-width: 400px) {
+  #site-header .container {
+    flex-direction: unset;
+  }
+  #site-header .container .menu {
+    position: fixed;
+    transform: translateX(-100%);
+    transition: transform 0.2s;
+    top: 0;
+    left: 0;
+    right: 1;
+    bottom: 0;
+    z-index: 99;
+    background: black;
+    color: #F7F7F7;
+    list-style: none;
+    padding-top: 4rem;
+  }
+  #site-header .container .hamburger {
+    display: block;
+    position: fixed;
+    z-index: 100;
+    top: 1rem;
+    right: 1rem;
+    padding: 4px;
+    border: black solid 1px;
+    background: white;
+    cursor: pointer;
+  }
+  #site-header .container .hamburger .closeIcon {
+    display: none;
+  }
+  #site-header .container .hamburger .showMenu {
+    transform: translateX(0);
   }
 }
 .intro-section {
@@ -892,9 +931,9 @@ html {
 .team-section .modal .modal-content {
   background-color: rgb(41, 23, 81);
   margin: auto;
-  padding: 40px;
+  padding: 30px;
   border-radius: 20px;
-  width: 80%;
+  width: 45%;
 }
 .team-section .modal .modal-content div {
   display: flex;

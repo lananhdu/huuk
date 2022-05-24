@@ -2,7 +2,6 @@
     padding: 1.5em;
     background: $primary-bg;
     padding: 1.5em;
-    ;
     top: 0px;
     position: fixed;
     left: 0px;
@@ -17,9 +16,9 @@
         display: flex;
         justify-content: space-between;
 
-    }
+    
 
-    nav {
+    .menu {
         text-align: center;
 
         a {
@@ -38,7 +37,11 @@
 
         }
     }
-}
+
+    button {
+        display: none;
+    }
+}}
 
 @media (max-width: 768px) {
     #site-header {
@@ -50,10 +53,19 @@
             }
         }
 
-        nav {
+        .menu {
             .button {
                 display: none;
             }
+        }
+    }
+}
+
+@media (max-width:400px) {
+    #site-header {
+        .container {
+            flex-direction: unset;
+
         }
     }
 }
