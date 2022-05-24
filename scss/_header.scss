@@ -16,32 +16,33 @@
         display: flex;
         justify-content: space-between;
 
-    
 
-    .menu {
-        text-align: center;
 
-        a {
-            color: $text-color;
-            text-decoration: none;
-            margin: $small-gap;
+        .menu {
+            text-align: center;
 
+            a {
+                color: $text-color;
+                text-decoration: none;
+                margin: $small-gap;
+
+            }
+
+            .button {
+                border: 2px solid #fff;
+                background: transparent;
+                display: inline-block;
+                margin-left: 48px;
+
+
+            }
         }
 
-        .button {
-            border: 2px solid #fff;
-            background: transparent;
-            display: inline-block;
-            margin-left: 48px;
-
-
+        button {
+            display: none;
         }
     }
-
-    button {
-        display: none;
-    }
-}}
+}
 
 @media (max-width: 768px) {
     #site-header {
@@ -61,11 +62,12 @@
     }
 }
 
-@media (max-width:400px) {
+@media (max-width: 400px) {
     #site-header {
         .container {
             flex-direction: unset;
-
+        }
         }
     }
+
 }
